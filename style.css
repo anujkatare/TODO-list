@@ -1,0 +1,32 @@
+body{
+    background-color: #8697c8;
+}
+h1{
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 1rem;
+    border: 2px  solid blue;
+
+}
+div{
+ text-align: center;
+ 
+}
+button{
+    border-radius: 0.5rem;
+    background-color: lightblue;
+    background :1px solid blue;
+    height: 50px;
+
+}
+#btn1{
+    width: 750px;
+}
+#btn2{
+    width: 750px;
+}
+.orderdlist{
+    background-color:lightblue;
+    border-radius: 1rem;
+    border: 2px solid blue;
+}

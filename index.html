@@ -3,20 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TODO-list</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="favicon.ico">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>TODO-LIST</h1>
-    <br>
-    <br>
-    <br>
+    <main>
+        <nav>
+            <div class="left">
+                <h1>KANBAN BOARD</h1>
+            </div>
+             <div class="right">
+                <button id="toggle-modal">    NEW TASK </button>
+             </div>
+        </nav>
+        <section class="board">
+            <div id="todo" class="task-column">
+                <div class="heading">
+                    <div class="left">ToDo</div>
+                    <div class="right">count</div>
+                </div>
+                
+            </div>
+            <div id="progress" class="task-column">
+                 <div class="heading">
+                    <div class="left">In Progress</div>
+                    <div class="right">count</div>
+                </div>
+            </div>
+            <div id="done" class="task-column">
+                 <div class="heading">
+                    <div class="left">Done</div>
+                    <div class="right">count</div>
+                </div>
+            </div>
+        </section>
+    </main>
+<div class="modal add-new-task">
+    <div class="bg" id="bg"></div>
     
-    <div><button id="btn1" ><a href="orderdlist.html">ORDERD LIST </a></button>
-    <br>
-    <br>
-        <button id="btn2"><a href="unorderdlist.html">UNORDERD LIST</a></button>
+    <div class="box">
+    <input type="text" id="task-title" placeholder="Task Title"/>
+    <textarea id="task-description" placeholder="Task description"></textarea>
+    <button id="new-task" class="new-task">Add Task</button>
+     <button id="cancel">Cancel</button>
     </div>
+</div>
+
+   
 </body>
+ <script src="script.js"></script> 
 </html>
